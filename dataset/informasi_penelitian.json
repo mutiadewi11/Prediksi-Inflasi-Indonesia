@@ -1,0 +1,13 @@
+{
+    "judul": "Prediksi Inflasi Indonesia Menggunakan VAR, VECM, dan Random Forest",
+    "periode": "Agustus 2016 - April 2026",
+    "jumlah_observasi": 117,
+    "jumlah_data_latih": 90,
+    "jumlah_data_uji": 27,
+    "model": [
+        "VAR",
+        "VECM",
+        "Random Forest"
+    ],
+    "model_terbaik": "Random Forest"
+}

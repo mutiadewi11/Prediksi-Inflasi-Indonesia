@@ -1,0 +1,11 @@
+[client]
+# "minimal"  -> sembunyikan tombol Deploy & menu hamburger sepenuhnya
+# "viewer"   -> sembunyikan tombol Deploy, menu hamburger tetap ada
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#F4A9A8"
+backgroundColor = "#FFF7F3"
+secondaryBackgroundColor = "#FBE4DD"
+textColor = "#5C4742"
+font = "sans serif"

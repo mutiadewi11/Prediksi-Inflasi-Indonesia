@@ -1,0 +1,67 @@
+/* ===== Tema Peach - Pink Kalem ===== */
+
+.stApp {
+    background-color: #FFF7F3;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #FBE4DD;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #6B4C46;
+}
+
+h1, h2, h3 {
+    color: #C97C74;
+    font-family: 'Georgia', 'Trebuchet MS', sans-serif;
+}
+
+p, li, span, label, div {
+    color: #5C4742;
+}
+
+div.stButton > button {
+    background-color: #F4A9A8;
+    color: #ffffff;
+    border: none;
+    border-radius: 24px;
+    padding: 0.5em 1.6em;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+div.stButton > button:hover {
+    background-color: #E8837D;
+    color: #ffffff;
+}
+
+[data-testid="stMetricValue"] {
+    color: #C97C74;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #6B4C46;
+}
+
+div[data-baseweb="radio"] label,
+div[data-baseweb="select"] {
+    color: #5C4742;
+}
+
+hr {
+    border-color: #F4A9A8;
+}
+
+.stAlert {
+    background-color: #FDEDE9;
+    border-radius: 12px;
+}
+
+/* Kartu info sederhana */
+.kartu-peach {
+    background-color: #FFE8E0;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+}
