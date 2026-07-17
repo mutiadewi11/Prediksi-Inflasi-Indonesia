@@ -25,8 +25,7 @@ streamlit run Home.py
 2. Folder `assets/` sudah berisi:
    - `metode_penelitian.png` (gambar alur penelitian)
    - `foto_mutia-bgred.png` (foto profil bulat di sidebar)
-3. Isi NPM dan nama dosen pembimbing di `Home.py` (cari tanda `[isi ...]`).
-4. Tombol "Deploy" saat run lokal sudah disembunyikan lewat `.streamlit/config.toml`
+3. Tombol "Deploy" saat run lokal sudah disembunyikan lewat `.streamlit/config.toml`
    (otomatis hilang juga setelah di-deploy ke Streamlit Cloud).
 
 ## Struktur folder
