@@ -63,11 +63,15 @@ st.caption(
 st.subheader("Kesimpulan")
 st.write(
     """
-    Berdasarkan hasil evaluasi menggunakan metrik RMSE, MAE, dan MAPE, model
-    **Random Forest** menunjukkan performa prediksi terbaik dibandingkan VAR dan
-    VECM, dengan tingkat kesalahan prediksi paling rendah pada data pengujian.
-    Meskipun demikian, model **VECM** tetap relevan digunakan untuk menganalisis
-    hubungan jangka panjang antarvariabel melalui mekanisme *Error Correction
-    Term* (ECT) yang tidak dimiliki oleh Random Forest maupun VAR.
+    Berdasarkan hasil evaluasi menggunakan metrik RMSE dan MAE, model **VAR**
+    menunjukkan performa prediksi terbaik dibandingkan VECM dan Random Forest,
+    dengan tingkat kesalahan prediksi paling rendah pada data pengujian. Model
+    **Random Forest** menggunakan pendekatan *recursive forecasting*, yaitu hasil
+    prediksi satu periode digunakan kembali sebagai input untuk periode berikutnya,
+    sehingga prediksi cenderung stabil pada nilai tertentu dan kurang responsif
+    terhadap fluktuasi tajam pada data aktual. Sementara itu, model **VECM** tetap
+    relevan digunakan untuk menganalisis hubungan jangka panjang antarvariabel
+    melalui mekanisme *Error Correction Term* (ECT) yang tidak dimiliki oleh VAR
+    maupun Random Forest.
     """
 )

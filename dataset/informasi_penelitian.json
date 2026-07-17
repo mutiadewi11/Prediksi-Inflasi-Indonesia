@@ -9,5 +9,5 @@
         "VECM",
         "Random Forest"
     ],
-    "model_terbaik": "Random Forest"
+    "model_terbaik": "VAR"
 }

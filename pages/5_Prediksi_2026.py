@@ -76,7 +76,9 @@ penjelasan = {
     "VAR": (
         "Model VAR memprediksi inflasi meningkat secara bertahap dari Mei hingga "
         "Agustus 2026, karena seluruh variabel diproyeksikan secara simultan "
-        "berdasarkan hubungan dinamis antarvariabel."
+        "berdasarkan hubungan dinamis antarvariabel. Berdasarkan hasil evaluasi "
+        "pada halaman Perbandingan Model, VAR menunjukkan performa prediksi "
+        "terbaik secara keseluruhan pada penelitian ini."
     ),
     "VECM": (
         "Model VECM menunjukkan tren peningkatan yang serupa dengan VAR, namun "
@@ -86,8 +88,9 @@ penjelasan = {
     "Random Forest": (
         "Model Random Forest menghasilkan pola prediksi yang lebih berfluktuasi "
         "karena menggunakan pendekatan recursive forecasting, yaitu hasil prediksi "
-        "satu periode digunakan kembali sebagai input lag untuk periode berikutnya, "
-        "sementara BI Rate dan harga minyak diasumsikan tetap."
+        "satu periode digunakan kembali sebagai input lag inflasi untuk periode "
+        "berikutnya, sementara BI Rate dan harga minyak dunia diasumsikan tetap "
+        "menggunakan nilai observasi terakhir yang tersedia."
     ),
 }
 
